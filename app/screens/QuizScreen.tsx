@@ -27,8 +27,6 @@ export default function QuizScreen({ route }) {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [questions, setQuestions] = useState([]);
   const currentQuestion = questions[currentQuestionIndex];
-  console.log(currentQuestion);
-
   const score = useAppSelector((state) => state.questionsSlice.score);
   const numberOfAnsweredQuestions = useAppSelector(
     (state) => state.questionsSlice.NumberOfAnsweredQuestions
