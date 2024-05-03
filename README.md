@@ -22,7 +22,7 @@ Pour lancer le projet localement, suivez ces étapes :
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/amir-398/my-porfolio-front.git
+git clone https://github.com/amir-398/pwa_rn.git
 cd pwa_rn
 ```
 2. Installez les dépendances :
